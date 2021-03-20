@@ -1,5 +1,5 @@
 {
-  "name": "personalportfolio",
+  "name": "react-portfolio-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,5 +18,5 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://seonghyeoklee.github.io/portfolio/"
+  "homepage": "https://seonghyeoklee.github.io/react-portfolio-app/"
 }
