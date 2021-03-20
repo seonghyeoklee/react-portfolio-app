@@ -1,0 +1,112 @@
+{
+  "main": {
+    "name":"이성혁",
+    "occupation":"Java Back-end Developer",
+    "description":"3 Years Experience Working",
+    "image":"seonghyeoklee.jpg",
+    "bio":"Spring, Spring boot를 사용하여 Restful API 서버를 구축할 수 있습니다. Oracle, Mysql, MariaDB 등의 관계형 데이터베이스를 통하여 데이터를 관리하며 정규화 할 수 있습니다. Travis CI를 통하여 AWS EC2에 테스트 및 배포를 자동화 할 수 있습니다.",
+    "contactmessage":"항상 다양한 의견을 듣고 배우겠습니다. 어떤 말씀이건 소중히 담겠습니다.",
+    "email": "shlee2827@gmail.com",
+    "phone": "010-2827-4325",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/seonghyeoklee",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/shlee327",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Spring Framwork를 이용하여 Restful API 서버를 구축하고, 화면을 제작할 수 있습니다. travis-ci를 통하여 테스트 및 클라우드 서비스에 배포 할 수 있습니다. ",
+    "work":[
+      {
+        "company":"Daeyoon Associates",
+        "title":"Java Spring Framework, Oracle, Jsp, Javascript, jquery, Ajax",
+        "years":"2018.03 - 현재",
+        "description":"System Integration 요구분석, 컨설팅, 설계, 개발, 시험 등 운영환경에 따른 정보시스템 구축과 시스템운영 및 보수 업무 수행"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Spring",
+        "logo":"images/logo/icons8-spring-logo-480.png"
+      },
+      {
+        "name":"SpringBoot",
+        "logo":"images/logo/icons8-spring-boot-400.png"
+      },
+      {
+        "name":"Oracle",
+        "logo":"images/logo/icons8-oracle-logo-480.png"
+      },
+      {
+        "name":"Mysql",
+        "logo":"images/logo/icons8-mysql-logo-500.png"
+      },
+      {
+        "name":"Html5",
+        "logo":"images/logo/icons8-html-5-480.png"
+      },
+      {
+        "name":"Css3",
+        "logo":"images/logo/icons8-css3-480.png"
+      },
+      {
+        "name":"Javascript",
+        "logo":"images/logo/icons8-javascript.png"
+      },
+      {
+        "name":"React",
+        "logo":"images/logo/icons8-react-native-480.png"
+      },
+      
+      {
+        "name":"Amazon",
+        "logo":"images/logo/icons8-amazon-web-services-480.png"
+      },
+      {
+        "name":"TravisCI",
+        "logo":"images/logo/icons8-travis-ci-480.png"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
