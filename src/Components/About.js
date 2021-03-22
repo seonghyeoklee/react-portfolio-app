@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { saveAs } from "file-saver";
 
 class About extends Component {
   render() {
@@ -8,8 +9,14 @@ class About extends Component {
       var bio = this.props.data.bio;
       var phone = this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      var resumeDownload = this.props.data.resumeDownload;
     }
+
+    const onDownload = async () => {
+      const downloadResult = await fetch(resumeDownload);
+      const blob = await downloadResult.blob();
+      saveAs(blob, "이력서_이성혁(Java_Backend).pdf");
+    };
 
     return (
       <section id="about">
@@ -31,9 +38,9 @@ class About extends Component {
                   <span>{email}</span>
                 </p>
                 <p>
-                  <a href={resumeDownload} className="button">
-                    <i className="fa fa-download"></i>Download Resume
-                  </a>
+                  <button type="button" onClick={onDownload}>
+                    <i className="fa fa-download"></i> Download Resume
+                  </button>
                 </p>
               </div>
             </div>
