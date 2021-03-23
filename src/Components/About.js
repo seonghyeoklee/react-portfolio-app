@@ -9,7 +9,8 @@ class About extends Component {
       var bio = this.props.data.bio;
       var phone = this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumeDownload;
+      var resumeDownload =
+        "/react-portfolio-app" + this.props.data.resumeDownload;
     }
 
     const onDownload = async () => {
