@@ -7,4 +7,4 @@ npm install
 npm run start
 ```
 
-[main](/public/images/portfolio/thumbnail-main.png)
+![main](/public/images/portfolio/thumbnail-main.png)
