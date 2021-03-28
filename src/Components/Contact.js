@@ -1,6 +1,36 @@
 import React, { Component } from "react";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+
+    this.contactName = this.contactName.bind(this);
+    this.contactEmail = this.contactEmail.bind(this);
+    this.contactMessage = this.contactMessage.bind(this);
+  }
+
+  contactName(e) {
+    this.setState({
+      contactName: e.target.value,
+    });
+  }
+
+  contactEmail(e) {
+    this.setState({
+      contactEmail: e.target.value,
+    });
+  }
+
+  contactMessage(e) {
+    this.setState({
+      contactMessage: e.target.value,
+    });
+  }
+
+  // onSubmit() {
+  //   console.log(this.state);
+  // }
+
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
@@ -37,7 +67,7 @@ class Contact extends Component {
                     size="35"
                     id="contactName"
                     name="contactName"
-                    onChange={this.handleChange}
+                    onChange={this.contactName}
                   />
                 </div>
 
@@ -51,7 +81,7 @@ class Contact extends Component {
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
-                    onChange={this.handleChange}
+                    onChange={this.contactEmail}
                   />
                 </div>
 
@@ -64,6 +94,7 @@ class Contact extends Component {
                     rows="15"
                     id="contactMessage"
                     name="contactMessage"
+                    onChange={this.contactMessage}
                   ></textarea>
                 </div>
 
